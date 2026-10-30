@@ -635,6 +635,11 @@ footer span { font-size: 12px; color: #999; }
   </div>
 </section>
 
+
+
+<!-- --------------------OBRAS---------------------------->
+<!-- ----------------------------------------------------->
+
 <section class="section" id="obras">
   <div class="reveal">
     <div class="eyebrow">La colección</div>
@@ -658,38 +663,145 @@ footer span { font-size: 12px; color: #999; }
       </div>
     </article>
 
-    <article class="art-card reveal" onclick="openArtwork(2)"
+
+
+<article class="art-card reveal" onclick="openArtwork(2)"
              tabindex="0" role="button"
              onkeydown="if(event.key==='Enter')openArtwork(2)">
+      <div class="art-image">
+        <img src="nose.png" alt="mujer" loading="lazy" decoding="async">
+      </div>
+      <div class="art-info">
+        <div>
+          <h3>No se</h3>
+          <p>SF · Obra 02</p>
+        </div>
+        <button class="circle" aria-label="Ver Colores">↗</button>
+      </div>
+    </article>
+
+
+    <article class="art-card reveal" onclick="openArtwork(3)"
+             tabindex="0" role="button"
+             onkeydown="if(event.key==='Enter')openArtwork(3)">
+      <div class="art-image">
+        <img src="navegando.png" alt="mujer" loading="lazy" decoding="async">
+      </div>
+      <div class="art-info">
+        <div>
+          <h3>Navegando</h3>
+          <p>SF · Obra 03</p>
+        </div>
+        <button class="circle" aria-label="Ver Colores">↗</button>
+      </div>
+    </article>
+
+
+ <article class="art-card reveal" onclick="openArtwork(4)"
+             tabindex="0" role="button"
+             onkeydown="if(event.key==='Enter')openArtwork(4)">
+      <div class="art-image">
+        <img src="jok.png" alt="mujer" loading="lazy" decoding="async">
+      </div>
+      <div class="art-info">
+        <div>
+          <h3>Joker</h3>
+          <p>SF · Obra 04</p>
+        </div>
+        <button class="circle" aria-label="Ver Colores">↗</button>
+      </div>
+    </article>
+
+
+
+    <article class="art-card reveal" onclick="openArtwork(5)"
+             tabindex="0" role="button"
+             onkeydown="if(event.key==='Enter')openArtwork(5)">
       <div class="art-image">
         <img src="cuerpoguitarra.png" alt="cuerpoguitarra" loading="lazy" decoding="async">
       </div>
       <div class="art-info">
         <div>
           <h3>Melodia</h3>
-          <p>SF · Obra 02</p>
+          <p>SF · Obra 05</p>
         </div>
         <button class="circle" aria-label="Ver Mirada">↗</button>
       </div>
     </article>
 
-    <article class="art-card reveal" onclick="openArtwork(3)"
+    <article class="art-card reveal" onclick="openArtwork(6)"
              tabindex="0" role="button"
-             onkeydown="if(event.key==='Enter')openArtwork(3)">
+             onkeydown="if(event.key==='Enter')openArtwork(6)">
       <div class="art-image">
         <img src="pensamiento.png" alt="pensamiento" loading="lazy" decoding="async">
       </div>
       <div class="art-info">
         <div>
           <h3>Pensamiento</h3>
-          <p>SF · Obra 03</p>
+          <p>SF · Obra 06</p>
         </div>
         <button class="circle" aria-label="Ver Mujer">↗</button>
       </div>
     </article>
 
+
+ <article class="art-card reveal" onclick="openArtwork(7)"
+             tabindex="0" role="button"
+             onkeydown="if(event.key==='Enter')openArtwork(7)">
+      <div class="art-image">
+        <img src="algo.png" alt="pensamiento" loading="lazy" decoding="async">
+      </div>
+      <div class="art-info">
+        <div>
+          <h3>Algo</h3>
+          <p>SF · Obra 07</p>
+        </div>
+        <button class="circle" aria-label="Ver Mujer">↗</button>
+      </div>
+    </article>
+
+
+
+     <article class="art-card reveal" onclick="openArtwork(8)"
+             tabindex="0" role="button"
+             onkeydown="if(event.key==='Enter')openArtwork(8)">
+      <div class="art-image">
+        <img src="pintor.png" alt="pensamiento" loading="lazy" decoding="async">
+      </div>
+      <div class="art-info">
+        <div>
+          <h3>El pintor</h3>
+          <p>SF · Obra 08</p>
+        </div>
+        <button class="circle" aria-label="Ver Mujer">↗</button>
+      </div>
+    </article>
+
+
+      <article class="art-card reveal" onclick="openArtwork(9)"
+             tabindex="0" role="button"
+             onkeydown="if(event.key==='Enter')openArtwork(9)">
+      <div class="art-image">
+        <img src="bella.png" alt="pensamiento" loading="lazy" decoding="async">
+      </div>
+      <div class="art-info">
+        <div>
+          <h3>Bella</h3>
+          <p>SF · Obra 09</p>
+        </div>
+        <button class="circle" aria-label="Ver Mujer">↗</button>
+      </div>
+    </article>
+
+
+
+
   </div>
 </section>
+
+<!-- --------------------OBRAS---------------------------->
+<!-- ----------------------------------------------------->
+
 
 <section class="about" id="artista">
   <div class="reveal">
@@ -758,10 +870,28 @@ const artworks = [
     image: "gato.png",
     description: "Bajo un cielo violeta, el gato observa la ciudad desde lo alto. Su mirada tranquila y el entorno intenso nos deja un aire de misterio y juego."
   },
+
   {
     title: "Mujer",
     image: "mujer.webp",
     description: "Mirada serena, rodeada de flores y colores cálidos. Pinceladas libres resaltan expresión y le dan vida a la obra."
+  },
+
+   {
+    title: "No se",
+    image: "nose.png",
+    description: "****************."
+  },
+
+    {
+    title: "Navegando",
+    image: "navegando.png",
+    description: "****************."
+  },
+      {
+    title: "Joker",
+    image: "jok.png",
+    description: "**********."
   },
   {
     title: "Melodia",
@@ -772,7 +902,25 @@ const artworks = [
     title: "Pensamiento",
     image: "pensamiento.png",
     description: "Con los ojos cerrados y el rostro apoyado en la mano, una figura se pierde en sus pensamientos. El corazón que aparece sobre ella deja entrever lo que ocupa su mente."
+  },
+
+   {
+    title: "Algo",
+    image: "algo.png",
+    description: "********."
+  },
+ {
+    title: "El pinor",
+    image: "pintor.png",
+    description: "**********."
+  },
+{
+    title: "Bella",
+    image: "bella.png",
+    description: "**********."
   }
+
+
 ];
 
 let previousFocus = null;
